@@ -1,0 +1,8 @@
+def monoNumber(nums):
+    return 2*sum(set(nums))-sum(nums)
+
+a=[2,2,1]
+print (int(monoNumber(a)))
+
+b=[4,1,2,1,2]
+print (int(monoNumber(b)))
