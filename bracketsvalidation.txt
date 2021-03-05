@@ -1,0 +1,15 @@
+class Solution:
+    def isValid(self, s: str) -> bool:
+        b_dict={'}':'{',')':'(',']':'['}
+        b_stack=[]
+        for char in s:
+            if(char not in b_dict):
+                b_stack.append(char)
+            else:
+                if b_stack:
+                    if b_dict[char]!=b_stack.pop():
+                        return False;
+                else:
+                     return False
+         if not(b_stack):
+             return True
