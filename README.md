@@ -1,5 +1,5 @@
 # Dhruthzuci-Tech-Solution---Assignment
-Question1 : Write API: 
+# Question1 : Write API: 
 Using Python Flask or ExpressJS, Write a REST API that reads the body and  returns JSON.
  
  API Method POST
@@ -18,7 +18,7 @@ Using Python Flask or ExpressJS, Write a REST API that reads the body and  retur
  
  
 Programs:
-Question 2:
+# Question 2:
 Given two arrays, write a function to compute their intersection.
 Example 1:
 Input: nums1 = [1,2,2,1], nums2 = [2,2]
@@ -32,7 +32,7 @@ Each element in the result must be unique.
 The result can be in any order.
  
  
-Question 3:
+# Question 3:
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 An input string is valid if:
 Open brackets must be closed by the same type of brackets.
@@ -51,7 +51,7 @@ Input: "(]"
 Output: false
  
  
-Question 4:
+# Question 4:
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
